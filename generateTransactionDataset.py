@@ -59,7 +59,7 @@ for strlist in strlistlist:
 output = file('transaction.txt','w')
 for record in transaction:
     for item in record:
-        output.write(str(item)+' ')
+        output.write(str(item)+',')
     output.write('\n')
 output.close()
     
